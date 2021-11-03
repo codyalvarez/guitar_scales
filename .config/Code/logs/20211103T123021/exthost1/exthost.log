@@ -1,0 +1,68 @@
+[2021-11-03 12:30:30.524] [exthost] [info] extension host started
+[2021-11-03 12:30:30.524] [exthost] [info] Skipping acquiring lock for /home/skywalker/.config/Code/User/workspaceStorage/0cb9f0b78f44695a7e3e4d5466b2c2ef.
+[2021-11-03 12:30:30.943] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-11-03 12:30:30.944] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-11-03 12:30:30.992] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-03 12:30:30.992] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-11-03 12:30:31.016] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-03 12:30:31.016] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-11-03 12:30:33.257] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6433
+[2021-11-03 12:30:43.140] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-11-03 12:30:43.140] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-11-03 12:30:44.725] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-11-03 12:30:44.725] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-11-03 12:30:45.214] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-03 12:30:45.214] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-11-03 12:30:45.244] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-03 12:30:45.244] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-11-03 12:30:45.256] [exthost] [info] eager extensions activated
+[2021-11-03 12:30:45.574] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-11-03 12:30:45.574] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-11-03 12:30:49.143] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6434
+[2021-11-03 12:31:02.160] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6435
+[2021-11-03 12:31:26.653] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.vscode-pylance
+[2021-11-03 12:31:26.653] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension
+[2021-11-03 12:31:27.176] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2021-11-03 12:31:27.176] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/skywalker/.vscode/extensions/ms-toolsai.jupyter-2021.9.1101343141/out/client/extension
+[2021-11-03 12:31:28.980] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2021-11-03 12:31:28.983] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/skywalker/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.3/out/extension_renderer/index.js
+[2021-11-03 12:31:29.380] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2021-11-03 12:31:29.381] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/skywalker/.vscode/extensions/ms-python.vscode-pylance-2021.10.3/dist/extension.bundle.js
+[2021-11-03 12:31:30.235] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6435
+[2021-11-03 12:32:14.166] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6440
+[2021-11-03 12:32:25.573] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-03 12:32:25.579] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:9:153377)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:9:113719
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-03 12:32:27.725] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6439
+[2021-11-03 12:32:38.734] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6439
+[2021-11-03 12:33:21.255] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-03 12:33:21.255] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:9:153377)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:9:113719
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-03 12:33:28.028] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6438
+[2021-11-03 12:34:04.424] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6438
+[2021-11-03 12:34:16.955] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6438
+[2021-11-03 12:34:27.254] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6438
+[2021-11-03 12:34:37.721] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6438
+[2021-11-03 12:34:47.739] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6438
+[2021-11-03 12:34:57.743] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6438
+[2021-11-03 12:35:46.688] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6438
+[2021-11-03 12:35:57.071] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6438
+[2021-11-03 12:36:06.937] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6439
+[2021-11-03 12:36:16.745] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6439
+[2021-11-03 12:36:26.488] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6439
+[2021-11-03 12:36:39.797] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6439
+[2021-11-03 12:36:51.547] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6439
+[2021-11-03 12:37:02.125] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6439
+[2021-11-03 12:37:07.748] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-03 12:37:07.751] [exthost] [error] Canceled: Canceled
+	at _.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:9:153526)
+	at _.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:9:153377)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:9:113719
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-03 12:37:12.741] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6439

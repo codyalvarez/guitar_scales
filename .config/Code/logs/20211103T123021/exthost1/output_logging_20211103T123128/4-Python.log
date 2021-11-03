@@ -1,0 +1,14 @@
+User belongs to experiment group 'pythonaacf'
+User belongs to experiment group 'pythonTensorboardExperiment'
+User belongs to experiment group 'pythonSurveyNotificationcf'
+User belongs to experiment group 'PythonPyTorchProfiler'
+User belongs to experiment group 'pythonDeprecatePythonPath'
+User belongs to experiment group 'pythonRunFailedTestsButtonDisplayed'
+User belongs to experiment group 'pythonRefreshTestsButtonDisplayed'
+User belongs to experiment group 'pythonRememberDebugConfig'
+> conda info --json
+> /usr/bin/python3 ~/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/interpreterInfo.py
+> /usr/include/python3.7 ~/.vscode/extensions/ms-python.python-2021.10.1365161279/pythonFiles/interpreterInfo.py
+Python interpreter path: /usr/bin/python3
+Starting Pylance language server.
+> conda --version

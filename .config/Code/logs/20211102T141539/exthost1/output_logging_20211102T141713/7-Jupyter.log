@@ -1,0 +1,23 @@
+Info 2021-11-02 14:17:13: Experimentation service retrieved: [object Object]
+Info 2021-11-02 14:17:13: ZMQ install verified.
+Error 2021-11-02 14:17:14: Jupyter Extension (Error in Failed to update settings.json, method:fixSettingsFile): [EntryNotFound (FileSystemError): Unable to read file '/home/skywalker/.vscode/settings.json' (Error: Unable to resolve nonexistent file '/home/skywalker/.vscode/settings.json')
+	at _handleError (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:163865)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async m.readFile (/home/skywalker/.vscode/extensions/ms-toolsai.jupyter-2021.9.1101343141/out/client/extension.js:90:363442)
+	at async g.fixSettingsFile (/home/skywalker/.vscode/extensions/ms-toolsai.jupyter-2021.9.1101343141/out/client/extension.js:52:320440)
+	at async Promise.all (index 1)
+	at async g.updateSettings (/home/skywalker/.vscode/extensions/ms-toolsai.jupyter-2021.9.1101343141/out/client/extension.js:52:322160)] {
+  code: 'FileNotFound'
+}
+Info 2021-11-02 14:17:14: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+Info 2021-11-02 14:17:15: Process Execution: > /usr/bin/python3 -m pip list
+> /usr/bin/python3 -m pip list
+Info 2021-11-02 14:17:15: Process Execution: > /usr/bin/python3 -m pip list
+> /usr/bin/python3 -m pip list
+Info 2021-11-02 14:40:27: Shutting down notebooks for 9de46b81-3e4b-4e31-86f6-b4ec37452908
+Info 2021-11-02 14:40:27: Disposing HostJupyterExecution b919b928-4afa-4692-8e9c-eb9e796aead8
+Info 2021-11-02 14:40:27: Disposing super HostJupyterExecution b919b928-4afa-4692-8e9c-eb9e796aead8
+Info 2021-11-02 14:40:27: Disposing HostJupyterExecution b919b928-4afa-4692-8e9c-eb9e796aead8
+Info 2021-11-02 14:40:27: Finished disposing HostJupyterExecution  b919b928-4afa-4692-8e9c-eb9e796aead8
+Info 2021-11-02 14:40:27: Cleaning up server cache b919b928-4afa-4692-8e9c-eb9e796aead8
+Info 2021-11-02 14:40:27: Finished disposing HostJupyterExecution  b919b928-4afa-4692-8e9c-eb9e796aead8
