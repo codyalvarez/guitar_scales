@@ -2,3 +2,10 @@ Info 2021-11-03 12:31:28: Experimentation service retrieved: [object Object]
 User belongs to experiment group 'jupyterTestcf'
 User belongs to experiment group 'jupyterEnhancedDataViewer'
 Info 2021-11-03 12:31:28: ZMQ install verified.
+Info 2021-11-03 12:41:55: Shutting down notebooks for 49a0538f-1a02-4211-aaf0-c121b713fb1d
+Info 2021-11-03 12:41:55: Disposing HostJupyterExecution 07f99e56-e8dc-4c12-a486-e0cf0aed0818
+Info 2021-11-03 12:41:55: Disposing super HostJupyterExecution 07f99e56-e8dc-4c12-a486-e0cf0aed0818
+Info 2021-11-03 12:41:55: Disposing HostJupyterExecution 07f99e56-e8dc-4c12-a486-e0cf0aed0818
+Info 2021-11-03 12:41:55: Finished disposing HostJupyterExecution  07f99e56-e8dc-4c12-a486-e0cf0aed0818
+Info 2021-11-03 12:41:55: Cleaning up server cache 07f99e56-e8dc-4c12-a486-e0cf0aed0818
+Info 2021-11-03 12:41:55: Finished disposing HostJupyterExecution  07f99e56-e8dc-4c12-a486-e0cf0aed0818

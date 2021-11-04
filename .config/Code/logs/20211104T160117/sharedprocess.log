@@ -1,0 +1,16 @@
+[2021-11-04 16:01:31.992] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-11-04 16:01:32.031] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-11-04 16:01:32.813] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-11-04 16:01:39.202] [sharedprocess] [info] Downloaded extension: ms-python.python /home/skywalker/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.11.1422169775
+[2021-11-04 16:01:39.971] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/skywalker/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.11.0
+[2021-11-04 16:01:52.758] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-11-04 16:01:52.768] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-11-04 16:02:02.767] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-11-04 16:02:09.850] [sharedprocess] [info] Extracted extension to /home/skywalker/.vscode/extensions/.4409c8cd-df13-4601-9bed-fdf2a66961ea: ms-python.python
+[2021-11-04 16:02:09.983] [sharedprocess] [info] Renamed to /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775
+[2021-11-04 16:02:10.011] [sharedprocess] [info] Extracting completed. ms-python.python
+[2021-11-04 16:02:10.050] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2021-11-04 16:02:21.981] [sharedprocess] [info] Extracted extension to /home/skywalker/.vscode/extensions/.5ecbd42c-cdf4-4096-abf5-f70802935c50: ms-python.vscode-pylance
+[2021-11-04 16:02:22.011] [sharedprocess] [info] Renamed to /home/skywalker/.vscode/extensions/ms-python.vscode-pylance-2021.11.0
+[2021-11-04 16:02:22.016] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2021-11-04 16:02:22.034] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance

@@ -66,3 +66,7 @@
 	at /home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:9:113719
 	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
 [2021-11-03 12:37:12.741] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6439
+[2021-11-03 12:37:22.831] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6439
+[2021-11-03 12:37:32.455] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 6438
+[2021-11-03 12:41:54.846] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-11-03 12:41:56.138] [exthost] [info] exiting with code 0

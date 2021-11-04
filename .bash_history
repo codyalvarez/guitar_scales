@@ -30,3 +30,22 @@ git push
 git rm --cached text_based_adventure_game
 code .
 /usr/bin/python3 /home/skywalker/adventure.py
+clear
+git init
+git commit -m "git initialize"
+git config --global user.email jedi.alvarez805@gmail.com
+git config --global user.name codyalvarez
+git branch -M main
+clear
+git remote add origin https://github.com/codyalvarez/text_based_adventure_game.git
+git push -u origin main
+git add .
+git commit -m "initialize"
+git push
+git push --set-upstream master
+git push
+git branch -M main
+git push -u origin main
+exit
+/usr/bin/python3 /home/skywalker/guitar_scales.py
+clear

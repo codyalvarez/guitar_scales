@@ -1,0 +1,13 @@
+[2021-11-03 12:47:46.453] [renderer1] [info] Starting extension host with pid 565.
+[2021-11-03 12:47:49.016] [renderer1] [error] [Extension Host] (node:565) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-11-03 12:47:58.777] [renderer1] [info] Enabling inspect port on extension host with pid 565.
+[2021-11-03 12:53:25.626] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30472)
+	at new r (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30421)
+	at new r (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:17220)
+	at q (/home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:52:326104)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:52:331442)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.10.1365161279/out/client/extension.js:9:118287
+	at async l.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:166891)

@@ -16,10 +16,10 @@
             "backupPath": "/home/skywalker/.config/Code/Backups/39eb307598cfc7cb1a9306c9f63cd488",
             "uiState": {
                 "mode": 0,
-                "x": 277,
-                "y": 196,
-                "width": 1366,
-                "height": 688
+                "x": 0,
+                "y": 40,
+                "width": 1920,
+                "height": 1000
             }
         },
         "openedWindows": []
@@ -62,7 +62,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"

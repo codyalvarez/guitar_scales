@@ -12,3 +12,5 @@ User belongs to experiment group 'pythonRememberDebugConfig'
 Python interpreter path: /usr/bin/python3
 Starting Pylance language server.
 > conda --version
+Error 2021-11-03 12:41:55: Error while running worker[Worker 1]. undefined
+Error 2021-11-03 12:41:55: Error while running worker[Worker 2]. undefined
