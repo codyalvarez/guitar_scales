@@ -33,4 +33,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/skywalker/guitar_scales2.py" added="2021-11-05T20:48:17Z" modified="2021-11-05T20:48:17Z" visited="2021-11-05T20:48:17.858790Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-11-05T20:48:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

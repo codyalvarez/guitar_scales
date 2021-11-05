@@ -110,3 +110,25 @@ code .
 /usr/bin/python3 /home/skywalker/guitar_scales.py
 clear
 git push
+/usr/bin/python3 /home/skywalker/guitar_scales.py
+clear
+git add .
+git commit -m "major"
+git push
+git pull
+git push
+git pull
+git init
+git commit -M main
+git add .
+cit commit -m "major"
+git commit -m "major"
+git push
+clear
+exit
+/usr/bin/python3 /home/skywalker/guitar_scales.py
+clear
+/usr/bin/python3 /home/skywalker/guitar_scales.py
+clear
+/usr/bin/python3 /home/skywalker/guitar_scales.py
+clear

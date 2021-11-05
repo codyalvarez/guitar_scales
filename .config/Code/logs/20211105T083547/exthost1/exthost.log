@@ -815,3 +815,109 @@
 	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
 	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
 	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 09:42:53.334] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 09:42:53.334] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 09:42:55.090] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 09:42:55.090] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 09:43:05.944] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 09:43:05.945] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 09:44:10.812] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 09:44:10.813] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 09:44:14.964] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 09:44:14.966] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 09:57:17.788] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 09:57:17.788] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 10:01:31.874] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 10:01:31.874] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 10:03:10.900] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 10:03:10.900] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 10:03:12.009] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 10:03:12.012] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 10:03:13.282] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 10:03:13.282] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:114800
+	at async v.provideDocumentHighlights (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:171033)
+[2021-11-05 10:05:15.397] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 10:05:15.398] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 10:05:17.717] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 10:05:17.719] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:118727
+	at async T.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:172403)
+[2021-11-05 10:05:57.263] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 10:05:57.263] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 10:06:41.614] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 10:06:41.615] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 10:06:41.623] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 10:06:41.624] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 10:11:24.119] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 10:11:24.119] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 10:11:35.644] [exthost] [error] [ms-python.python] provider FAILED
+[2021-11-05 10:11:35.644] [exthost] [error] Canceled: Canceled
+	at S.makeCancelError (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:151015)
+	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
+	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:111208
+	at async s.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:170095)
+[2021-11-05 10:25:14.089] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-11-05 10:25:15.266] [exthost] [info] exiting with code 0
