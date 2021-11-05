@@ -1,9 +1,0 @@
-[2021-11-01 13:22:06.805] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.createExtensionHost() took 48 ms.
-[2021-11-01 13:22:06.897] [renderer1] [info] Starting extension host with pid 593.
-[2021-11-01 13:22:10.635] [renderer1] [error] [Extension Host] (node:593) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `code --trace-deprecation ...` to show where the warning was created)
-[2021-11-01 13:28:52.580] [renderer1] [error] No process: Error: No process
-    at _.refreshProperty (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1711:24136)
-    at ei.refreshProperty (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2732:15129)
-    at ei._updateProcessCwd (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2732:1469)
-    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6:10052

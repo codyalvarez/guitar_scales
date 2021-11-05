@@ -1,0 +1,35 @@
+[Info  - 7:58:24 AM] Pylance language server 2021.11.0 (pyright fb86eac6) starting
+[Info  - 7:58:24 AM] Server root directory: /home/skywalker/.vscode/extensions/ms-python.vscode-pylance-2021.11.0/dist
+[Info  - 7:58:24 AM] No configuration file found.
+[Info  - 7:58:24 AM] No pyproject.toml file found.
+[Info  - 7:58:24 AM] Setting pythonPath for service "skywalker": "/usr/bin/python3"
+[Warn  - 7:58:24 AM] stubPath /home/skywalker/typings is not a valid directory.
+[Info  - 7:58:24 AM] Assuming Python version 3.7
+[Info  - 7:58:24 AM] Assuming Python platform Linux
+[Warn  - 7:58:25 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 7:58:25 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 7:58:25 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Warn  - 7:58:25 AM] Exception received when installing file system watcher: TypeError [ERR_FEATURE_UNAVAILABLE_ON_PLATFORM]: The feature watch recursively is unavailable on the current platform, which is being used to run Node.js
+[Info  - 7:58:25 AM] Searching for source files
+[Info  - 7:58:27 AM] Found 5282 source files
+[Info  - 7:58:27 AM] Background analysis(1) root directory: /home/skywalker/.vscode/extensions/ms-python.vscode-pylance-2021.11.0/dist
+[Info  - 7:58:27 AM] Background analysis(1) started
+[Info  - 7:58:28 AM] Searching for source files
+[Info  - 7:58:29 AM] Found 5448 source files
+[Info  - 7:58:42 AM] Searching for source files
+[Info  - 7:58:49 AM] Found 5448 source files
+[Info  - 7:58:54 AM] Searching for source files
+[Info  - 7:58:59 AM] Found 5448 source files
+[Info  - 8:01:44 AM] Searching for source files
+[Info  - 8:01:46 AM] Found 5448 source files
+[Info  - 8:02:03 AM] Searching for source files
+[Info  - 8:02:04 AM] Found 5448 source files
+[Info  - 8:02:05 AM] Searching for source files
+[Info  - 8:02:07 AM] Found 5448 source files
+[Info  - 8:02:20 AM] [BG(1)] Long operation: analyzing: /home/skywalker/guitar_scales.py (2592ms)
+[Info  - 8:04:01 AM] Searching for source files
+[Info  - 8:04:03 AM] Found 5448 source files
+[Info  - 8:04:14 AM] Searching for source files
+[Info  - 8:04:15 AM] Found 5448 source files
+[Info  - 8:04:19 AM] Searching for source files
+[Info  - 8:04:21 AM] Found 5448 source files

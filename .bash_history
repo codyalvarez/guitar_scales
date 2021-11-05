@@ -49,3 +49,51 @@ git push -u origin main
 exit
 /usr/bin/python3 /home/skywalker/guitar_scales.py
 clear
+/usr/bin/python3 /home/skywalker/guitar_scales.py
+clear
+git add .
+git commit -m "add scales"
+git push
+clear
+git init
+git commit -m "git initialize"
+git branch -M main
+git remote add origin https://github.com/codyalvarez/guitar_scales.git
+git push -u origin main
+git add .
+git commit -m "initialize"
+git pushj
+git push
+git push origin master
+git remote add origin https://github.com/codyalvarez/guitar_scales.git
+git push -u origin main
+git pull
+git remote add origin https://github.com/codyalvarez/guitar_scales.git
+git push -u origin main
+clear
+git init
+git commit -m "initialize git"
+git branch -M main
+git remote add origin https://github.com/codyalvarez/guitar_scales.git
+git push -u origin main
+git config
+git config -1
+git config --show-origin
+clear
+git remote show origin
+git remote set-url origin https://github.com/codyalvarez/guitar_scales.git
+git remote set-url --push origin https://github.com/codyalvarez/guitar_scales.git
+git remote show origin
+git add .
+git commit "did it work"
+git commit -m "did it work"
+git push
+clear
+code .
+/usr/bin/python3 /home/skywalker/guitar_scales.py
+clear
+git init
+git commit -m "git initialize"
+git branch -M main
+git remote add origin https://github.com/codyalvarez/guitar_scales.git
+git push -u origin main
