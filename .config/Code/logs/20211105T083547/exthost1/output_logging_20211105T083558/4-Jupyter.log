@@ -1,0 +1,4 @@
+Info 2021-11-05 08:36:00: Experimentation service retrieved: [object Object]
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Info 2021-11-05 08:36:00: ZMQ install verified.

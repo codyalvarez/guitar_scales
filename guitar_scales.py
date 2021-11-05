@@ -2,6 +2,7 @@ def main_menu():
     print("\nMAIN MENU")
     print("\nChoose A Scale to get rocking.")
     print("Major | Minor | Major Pentatonic | Minor Pentatonic | Minor Harmonic | Melodic Minor | Blues | Mixolydian | Dorian | Lydian")
+    print("\nType 'exit' to exit program.")
 
     answer = input(">")
 
@@ -25,6 +26,8 @@ def main_menu():
         dorian()
     elif answer == "Lydian":
         lydian()
+    elif answer == "exit" or answer == "Exit":
+        exit
     else:
         print("Thats not an option..")
         main_menu()
@@ -71,9 +74,10 @@ def c():
     print("A|-----7-8-10------------------------|")
     print("E|8-10-------------------------------|")
 
-    print("\nType '1' or '2' or type exit to exit program.")
+    print("\nType '1' or '2'.")
     print("1. ) Choose another Major Scale")
     print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
 
     answer = input(">")
 
@@ -96,14 +100,15 @@ def c_sharp_d():
     print("A|-----8-9-11--------------------------|")
     print("E|8-11---------------------------------|")
 
-    print("\nType '1' or '2' or type exit to exit program.")
+    print("\nType '1' or '2'.")
     print("1. ) Choose another Major Scale")
     print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
 
     answer = input(">")
 
     if "1" in answer:
-        c_sharp_d()
+        major()
     elif "2" in answer:
         main_menu()
     elif "exit" in answer:
@@ -121,14 +126,15 @@ def d():
     print("A|-5-7-9---------------------------|")
     print("E|---------------------------------|")
 
-    print("\nType '1' or '2' or type exit to exit program.")
+    print("\nType '1' or '2'.")
     print("1. ) Choose another Major Scale")
     print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
 
     answer = input(">")
 
     if "1" in answer:
-        d()
+        major()
     elif "2" in answer:
         main_menu()
     elif "exit" in answer:
@@ -137,84 +143,241 @@ def d():
         print("Thats not an option...")
         d()
 
+def d_sharp_e():
+    print("\nD#/E♭")
+    print("e|-----------------------------8-10-11-|")
+    print("B|----------------------8-9-11---------|")
+    print("G|---------------7-8-10----------------|")
+    print("D|--------6-8-10-----------------------|")
+    print("A|-6-8-10------------------------------|")
+    print("E|-------------------------------------|")
 
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Scale")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        d_sharp_e()
+
+def e():
+    print("\nE") 
+    print("e|------------------------------9-11-12-|")
+    print("B|----------------------9-10-12---------|")
+    print("G|---------------8-9-11-----------------|")
+    print("D|--------7-9-11------------------------|")
+    print("A|-7-9-11-------------------------------|")
+    print("E|--------------------------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Scale")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        e()
+
+def f():
+    print("\nF")
+
+    print("e|-------------------------------|")
+    print("B|-------------------------3-5-6-|")
+    print("G|-------------------2-3-5-------|")
+    print("D|-------------2-3-5-------------|")
+    print("A|-------1-3-5-------------------|")
+    print("E|-1-3-5-------------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Scale")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        f()
+
+def f_sharp_g():
+    print("\nF#/G♭") 
+    print("e|---------------------------1-2-|")
+    print("B|-----------------------2-4-----|")
+    print("G|-----------------1-3-4---------|")
+    print("D|-----------1-3-4---------------|")
+    print("A|-----1-2-4---------------------|")
+    print("E|-2-4---------------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Scale")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        f_sharp_g()
  
-#   D#/E♭
-# e|-----------------------------8-10-11-|
-# B|----------------------8-9-11---------|
-# G|---------------7-8-10----------------|
-# D|--------6-8-10-----------------------|
-# A|-6-8-10------------------------------|
-# E|-------------------------------------|
- 
-#   E
-# e|------------------------------9-11-12-|
-# B|----------------------9-10-12---------|
-# G|---------------8-9-11-----------------|
-# D|--------7-9-11------------------------|
-# A|-7-9-11-------------------------------|
-# E|--------------------------------------|
- 
-#   F
-# e|-------------------------------|
-# B|-------------------------3-5-6-|
-# G|-------------------2-3-5-------|
-# D|-------------2-3-5-------------|
-# A|-------1-3-5-------------------|
-# E|-1-3-5-------------------------|
- 
-#   F#/G♭
-# e|---------------------------1-2-|
-# B|-----------------------2-4-----|
-# G|-----------------1-3-4---------|
-# D|-----------1-3-4---------------|
-# A|-----1-2-4---------------------|
-# E|-2-4---------------------------|
- 
-#   G
-# e|----------------------------2-3-|
-# B|------------------------3-5-----|
-# G|------------------2-4-5---------|
-# D|------------2-4-5---------------|
-# A|-----2-3-5----------------------|
-# E|-3-5----------------------------|
- 
-#   G#/A♭
-# e|---------------------------3-4-|
-# B|-----------------------4-6-----|
-# G|-----------------3-5-6---------|
-# D|-----------3-5-6---------------|
-# A|-----3-4-6---------------------|
-# E|-4-6---------------------------|
- 
-#   A
-# e|---------------------------4-5-|
-# B|-----------------------5-7-----|
-# G|-----------------4-6-7---------|
-# D|-----------4-6-7---------------|
-# A|-----4-5-7---------------------|
-# E|-5-7---------------------------|
- 
-#   A#/B♭
-# e|---------------------------5-6-|
-# B|-----------------------6-8-----|
-# G|-----------------5-7-8---------|
-# D|-----------5-7-8---------------|
-# A|-----5-6-8---------------------|
-# E|-6-8---------------------------|
- 
-#   B
-# e|---------------------------6-7-|
-# B|-----------------------7-9-----|
-# G|-----------------6-8-9---------|
-# D|-----------6-8-9---------------|
-# A|-----6-7-9---------------------|
-# E|-7-9---------------------------|
+def g():
+    print("\nG")    
+    print("e|----------------------------2-3-|")
+    print("B|------------------------3-5-----|")
+    print("G|------------------2-4-5---------|")
+    print("D|------------2-4-5---------------|")
+    print("A|-----2-3-5----------------------|")
+    print("E|-3-5----------------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Scale")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        g()
+
+def g_sharp_a():
+    print("G#/A♭") 
+    print("e|---------------------------3-4-|")
+    print("B|-----------------------4-6-----|")
+    print("G|-----------------3-5-6---------|")
+    print("D|-----------3-5-6---------------|")
+    print("A|-----3-4-6---------------------|")
+    print("E|-4-6---------------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Scale")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        g_sharp_a()
+
+def a():
+    print("\nA") 
+    print("e|---------------------------4-5-|")
+    print("B|-----------------------5-7-----|")
+    print("G|-----------------4-6-7---------|")
+    print("D|-----------4-6-7---------------|")
+    print("A|-----4-5-7---------------------|")
+    print("E|-5-7---------------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Scale")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        a()
+
+def a_sharp_b():
+    print("\nA#/B♭")
+    print("e|---------------------------5-6-|")
+    print("B|-----------------------6-8-----|")
+    print("G|-----------------5-7-8---------|")
+    print("D|-----------5-7-8---------------|")
+    print("A|-----5-6-8---------------------|")
+    print("E|-6-8---------------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Scale")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        a_sharp_b()
+
+def b():
+    print("\nB")
+    print("e|---------------------------6-7-|")
+    print("B|-----------------------7-9-----|")
+    print("G|-----------------6-8-9---------|")
+    print("D|-----------6-8-9---------------|")
+    print("A|-----6-7-9---------------------|")
+    print("E|-7-9---------------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Scale")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        b()
     
-
-
-
-
     main_menu()
 
 def minor():
@@ -249,7 +412,6 @@ def minor():
         b()
     else:
         print("Thats not an option...")
-
 
     main_menu()
 
@@ -286,7 +448,6 @@ def major_pentatonic():
     else:
         print("Thats not an option...")
 
-
     main_menu()
 
 def minor_pentatonic():
@@ -321,7 +482,6 @@ def minor_pentatonic():
         b()
     else:
         print("Thats not an option...")
-
 
     main_menu()
 
@@ -358,7 +518,6 @@ def minor_harmonic():
     else:
         print("Thats not an option...")
 
-
     main_menu()
 
 def melodic_minor():
@@ -393,7 +552,6 @@ def melodic_minor():
         b()
     else:
         print("Thats not an option...")
-
 
     main_menu()
 
@@ -430,7 +588,6 @@ def blues():
     else:
         print("Thats not an option...")
 
-
     main_menu()
 
 def mixolydian():
@@ -465,7 +622,6 @@ def mixolydian():
         b()
     else:
         print("Thats not an option...")
-
 
     main_menu()
 
@@ -502,7 +658,6 @@ def dorian():
     else:
         print("Thats not an option...")
 
-
     main_menu()
 
 def lydian():
@@ -537,7 +692,6 @@ def lydian():
         b()
     else:
         print("Thats not an option...")
-
 
     main_menu()    
 

@@ -97,3 +97,16 @@ git commit -m "git initialize"
 git branch -M main
 git remote add origin https://github.com/codyalvarez/guitar_scales.git
 git push -u origin main
+git remote show origin
+git init
+git commit -m "initialize git"
+git branch -M main
+git remote add origin https://github.com/codyalvarez/guitar_scales.git
+git push -u origin main
+git add .
+git commit -m "git initialize"
+git push
+code .
+/usr/bin/python3 /home/skywalker/guitar_scales.py
+clear
+git push
