@@ -145,3 +145,13 @@ git add .
 git commit -m "minor pentatonic"
 git push
 git pull
+/usr/bin/python3 /home/skywalker/guitar_scales.py
+clear
+git pull
+-m commit "initial commit"
+commit -m "re intiailize commit"
+git add .
+git commit -m "re intialize"
+git push
+clear
+code .
