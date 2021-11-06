@@ -140,3 +140,8 @@ git commit -m "add minor scales"
 git push
 clear
 /usr/bin/python3 /home/skywalker/guitar_scales.py
+clear
+git add .
+git commit -m "minor pentatonic"
+git push
+git pull

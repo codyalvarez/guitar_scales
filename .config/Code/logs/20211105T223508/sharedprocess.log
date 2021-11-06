@@ -3,3 +3,4 @@
 [2021-11-05 22:35:43.909] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
 [2021-11-05 22:35:43.910] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
 [2021-11-05 22:35:53.906] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-11-05 23:43:04.107] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
