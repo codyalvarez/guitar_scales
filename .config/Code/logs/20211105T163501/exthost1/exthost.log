@@ -1529,3 +1529,5 @@
 	at S.handleFailedRequest (/home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:150866)
 	at /home/skywalker/.vscode/extensions/ms-python.python-2021.11.1422169775/out/client/extension.js:9:114800
 	at async v.provideDocumentHighlights (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:171033)
+[2021-11-05 18:35:55.016] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-11-05 18:35:56.419] [exthost] [info] exiting with code 0

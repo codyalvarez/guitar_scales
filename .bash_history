@@ -132,3 +132,11 @@ clear
 clear
 /usr/bin/python3 /home/skywalker/guitar_scales.py
 clear
+/usr/bin/python3 /home/skywalker/guitar_scales.py
+clear
+dit add .
+git add .
+git commit -m "add minor scales"
+git push
+clear
+/usr/bin/python3 /home/skywalker/guitar_scales.py

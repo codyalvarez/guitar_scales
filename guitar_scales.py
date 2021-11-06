@@ -889,67 +889,187 @@ def e2():
         e2()
 
 def f2():
+    print("\nF")
 
+    print("e|-----------------------|")
+    print("B|-------------------3-6-|")
+    print("G|---------------2-5-----|")
+    print("D|-----------3-5---------|")
+    print("A|-------3-5-------------|")
+    print("E|-1-3-5-----------------|")
 
- 
-#   F
-# e|-----------------------|
-# B|-------------------3-6-|
-# G|---------------2-5-----|
-# D|-----------3-5---------|
-# A|-------3-5-------------|
-# E|-1-3-5-----------------|
- 
-#   F#/G♭
-# e|----------------------2-|
-# B|------------------2-4---|
-# G|-------------1-3--------|
-# D|---------1-4------------|
-# A|-----1-4----------------|
-# E|-2-4--------------------|
- 
-#   G
-# e|---------------------3-|
-# B|-----------------3-5---|
-# G|-------------2-4-------|
-# D|---------2-5-----------|
-# A|-----2-5---------------|
-# E|-3-5-------------------|
- 
-#   G#/A♭
-# e|---------------------4-|
-# B|-----------------4-6---|
-# G|-------------3-5-------|
-# D|---------3-6-----------|
-# A|-----3-6---------------|
-# E|-4-6-------------------|
- 
-#   A
-# e|---------------------4-|
-# B|-----------------5-7---|
-# G|-------------4-6-------|
-# D|---------4-7-----------|
-# A|-----4-7---------------|
-# E|-5-7-------------------|
- 
-#   A#/B♭
-# e|---------------------6-|
-# B|-----------------6-8---|
-# G|-------------5-7-------|
-# D|---------5-8-----------|
-# A|-----5-8---------------|
-# E|-6-8-------------------|
- 
-#   B
-# e|---------------------7-|
-# B|-----------------7-9---|
-# G|-------------6-8-------|
-# D|---------6-9-----------|
-# A|-----6-9---------------|
-# E|-7-9-------------------|
- 
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
 
-    main_menu()
+    answer = input(">")
+
+    if "1" in answer:
+        major_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        f2()
+
+def f_sharp_g2():
+    print("\nF#/G♭") 
+    print("e|----------------------2-|")
+    print("B|------------------2-4---|")
+    print("G|-------------1-3--------|")
+    print("D|---------1-4------------|")
+    print("A|-----1-4----------------|")
+    print("E|-2-4--------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        f_sharp_g2()
+
+def g2():
+    print("\nG")
+    print("e|---------------------3-|")
+    print("B|-----------------3-5---|")
+    print("G|-------------2-4-------|")
+    print("D|---------2-5-----------|")
+    print("A|-----2-5---------------|")
+    print("E|-3-5-------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        g2()
+ 
+def g_sharp_a2():
+    print("\nG#/A♭")
+    print("e|---------------------4-|")
+    print("B|-----------------4-6---|")
+    print("G|-------------3-5-------|")
+    print("D|---------3-6-----------|")
+    print("A|-----3-6---------------|")
+    print("E|-4-6-------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        g_sharp_a2()
+
+def a2():
+    print("A")
+    print("e|---------------------4-|")
+    print("B|-----------------5-7---|")
+    print("G|-------------4-6-------|")
+    print("D|---------4-7-----------|")
+    print("A|-----4-7---------------|")
+    print("E|-5-7-------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        a2()
+
+def a_sharp_b2():
+    print("A#/B♭") 
+    print("e|---------------------6-|")
+    print("B|-----------------6-8---|")
+    print("G|-------------5-7-------|")
+    print("D|---------5-8-----------|")
+    print("A|-----5-8---------------|")
+    print("E|-6-8-------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        a_sharp_b2()
+
+def b2():
+    print("\nB")
+    print("e|---------------------7-|")
+    print("B|-----------------7-9---|")
+    print("G|-------------6-8-------|")
+    print("D|---------6-9-----------|")
+    print("A|-----6-9---------------|")
+    print("E|-7-9-------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Major Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        major_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        b2()
 
 def minor_pentatonic():
     print("\nChoose A Minor Pentatonic Scale")
@@ -958,133 +1078,344 @@ def minor_pentatonic():
     answer = input(">")
 
     if answer == "C":
-        c()
+        c3()
     elif answer == "C#/D":
-        c_sharp_d()
+        c_sharp_d3()
     elif answer == "D":
-        d()
+        d3()
     elif answer == "D#/E":
-        d_sharp_e()
+        d_sharp_e3()
     elif answer == "E":
-        e()
+        e3()
     elif answer == "F":
-        f()
+        f3()
     elif answer == "F#/G":
-        f_sharp_g()
+        f_sharp_g3()
     elif answer == "G":
-        g()
+        g3()
     elif answer == "G#/A":
-        g_sharp_a
+        g_sharp_a3()
     elif answer == "A":
-        a()
+        a3()
     elif answer == "A#/B":
-        a_sharp_b()
+        a_sharp_b3()
     elif answer == "B":
-        b()
+        b3()
     else:
         print("Thats not an option...")
 
-# Minor Pentatonic
- 
-#   C
-# e|--------------------------8-|
-# B|---------------------8-11---|
-# G|----------------8-10--------|
-# D|-----------8-10-------------|
-# A|------8-10------------------|
-# E|-8-11-----------------------|
- 
-#   C#/D♭
-# e|--------------------------9-|
-# B|---------------------9-12---|
-# G|----------------9-11--------|
-# D|-----------9-11-------------|
-# A|------9-11------------------|
-# E|-9-12-----------------------|
- 
-#   D
-# e|---------------------8-10-|
-# B|----------------8-10------|
-# G|---------5-7-10-----------|
-# D|-----5-7------------------|
-# A|-5-8----------------------|
-# E|--------------------------|
- 
-#   D#/E♭
-# e|---------------------9-12-|
-# B|----------------9-12------|
-# G|---------6-8-12-----------|
-# D|-----6-8------------------|
-# A|-6-9----------------------|
-# E|--------------------------|
- 
-#   E
-# e|-----------------------10-12-|
-# B|-----------------10-12-------|
-# G|----------7-9-12-------------|
-# D|------7-9--------------------|
-# A|-7-10------------------------|
-# E|-----------------------------|
- 
-#   F
-# e|---------------------1-|
-# B|-----------------1-4---|
-# G|-------------1-3-------|
-# D|---------1-3-----------|
-# A|-----1-3---------------|
-# E|-1-4-------------------|
- 
-#   F#/G♭
-# e|---------------------2-|
-# B|-----------------2-5---|
-# G|-------------2-4-------|
-# D|---------2-4-----------|
-# A|-----2-4---------------|
-# E|-2-5-------------------|
- 
-#   G
-# e|---------------------3-|
-# B|-----------------3-6---|
-# G|-------------3-5-------|
-# D|---------3-5-----------|
-# A|-----3-5---------------|
-# E|-3-6-------------------|
- 
-#   G#/A♭
-# e|---------------------4-|
-# B|-----------------4-7---|
-# G|-------------4-6-------|
-# D|---------4-6-----------|
-# A|-----4-6---------------|
-# E|-4-7-------------------|
- 
-#   A
-# e|---------------------5-|
-# B|-----------------5-8---|
-# G|-------------5-7-------|
-# D|---------5-7-----------|
-# A|-----5-7---------------|
-# E|-5-8-------------------|
- 
-#   A#/B♭
-# e|---------------------6-|
-# B|-----------------6-9---|
-# G|-------------6-8-------|
-# D|---------6-8-----------|
-# A|-----6-8---------------|
-# E|-6-9-------------------|
- 
-#   B
-# e|-----------------------7-|
-# B|------------------7-10---|
-# G|--------------7-9--------|
-# D|----------7-9------------|
-# A|------7-9----------------|
-# E|-7-10--------------------|
- 
+def c3():
+    print("\nC")
+    print("e|--------------------------8-|")
+    print("B|---------------------8-11---|")
+    print("G|----------------8-10--------|")
+    print("D|-----------8-10-------------|")
+    print("A|------8-10------------------|")
+    print("E|-8-11-----------------------|")
 
-    main_menu()
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Minor Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
 
+    answer = input(">")
+
+    if "1" in answer:
+        minor_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        c3()
+
+def c_sharp_d3():
+    print("\nC#/D♭")
+    print("e|--------------------------9-|")
+    print("B|---------------------9-12---|")
+    print("G|----------------9-11--------|")
+    print("D|-----------9-11-------------|")
+    print("A|------9-11------------------|")
+    print("E|-9-12-----------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Minor Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        minor_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        c_sharp_d3()
+
+def d3():
+    print("\nD") 
+    print("e|---------------------8-10-|")  
+    print("B|----------------8-10------|")
+    print("G|---------5-7-10-----------|")
+    print("D|-----5-7------------------|")
+    print("A|-5-8----------------------|")
+    print("E|--------------------------|")
+ 
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Minor Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        minor_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        d3()
+
+def d_sharp_e3():
+    print("\nD#/E♭") 
+    print("e|---------------------9-12-|")
+    print("B|----------------9-12------|")
+    print("G|---------6-8-12-----------|")
+    print("D|-----6-8------------------|")
+    print("A|-6-9----------------------|")
+    print("E|--------------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Minor Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        minor_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        d_sharp_e3()
+
+def e3():
+    print("\nE")
+    print("e|-----------------------10-12-|")
+    print("B|-----------------10-12-------|")
+    print("G|----------7-9-12-------------|")
+    print("D|------7-9--------------------|")
+    print("A|-7-10------------------------|")
+    print("E|-----------------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Minor Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        minor_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        e3()
+
+def f3():
+    print("\nF")
+    print("e|---------------------1-|")
+    print("B|-----------------1-4---|")
+    print("G|-------------1-3-------|")
+    print("D|---------1-3-----------|")
+    print("A|-----1-3---------------|")
+    print("E|-1-4-------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Minor Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        minor_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        f3()
+
+def f_sharp_g3():
+    print("\nF#/G♭") 
+    print("e|---------------------2-|")
+    print("B|-----------------2-5---|")
+    print("G|-------------2-4-------|")
+    print("D|---------2-4-----------|")
+    print("A|-----2-4---------------|")
+    print("E|-2-5-------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Minor Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        minor_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        f_sharp_g3()
+
+def g3():
+    print("\nG")
+    print("e|---------------------3-|")
+    print("B|-----------------3-6---|")
+    print("G|-------------3-5-------|")
+    print("D|---------3-5-----------|")
+    print("A|-----3-5---------------|")
+    print("E|-3-6-------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Minor Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        minor_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        g3()
+
+def g_sharp_a3():
+    print("\nG#/A♭") 
+    print("e|---------------------4-|")
+    print("B|-----------------4-7---|")
+    print("G|-------------4-6-------|")
+    print("D|---------4-6-----------|")
+    print("A|-----4-6---------------|")
+    print("E|-4-7-------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Minor Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        minor_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        g_sharp_a3()
+
+def a3():
+    print("\nA")
+    print("e|---------------------5-|")
+    print("B|-----------------5-8---|")
+    print("G|-------------5-7-------|")
+    print("D|---------5-7-----------|")
+    print("A|-----5-7---------------|")
+    print("E|-5-8-------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Minor Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        minor_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        a3()
+
+def a_sharp_b3(): 
+    print("\nA#/B♭")
+    print("e|---------------------6-|")
+    print("B|-----------------6-9---|")
+    print("G|-------------6-8-------|")
+    print("D|---------6-8-----------|")
+    print("A|-----6-8---------------|")
+    print("E|-6-9-------------------|")
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Minor Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        minor_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        a_sharp_b3()
+
+def b3():
+    print("\nB") 
+    print("e|-----------------------7-|")
+    print("B|------------------7-10---|")
+    print("G|--------------7-9--------|")
+    print("D|----------7-9------------|")
+    print("A|------7-9----------------|")
+    print("E|-7-10--------------------|") 
+
+    print("\nType '1' or '2'.")
+    print("1. ) Choose another Minor Pentatonic")
+    print("2. ) Return To Main Menu")
+    print("\nType 'exit' to exit program.")
+
+    answer = input(">")
+
+    if "1" in answer:
+        minor_pentatonic()
+    elif "2" in answer:
+        main_menu()
+    elif "exit" in answer:
+        exit
+    else:
+        print("Thats not an option...")
+        b3()
+ 
 def minor_harmonic():
     print("\nChoose A Minor Harmonic")
     print("C | C#/D♭ | D | D#/E♭ | E | F | F#/G♭ | G | G#/A♭ | A | A#/B♭ | B")
@@ -1749,9 +2080,6 @@ def dorian():
 # D|--------------7-9-11--------------|
 # A|-------7-9-11---------------------|
 # E|7-9-10----------------------------|
- 
-
-    main_menu()
 
 def lydian():
     print("\nChoose A Lydian Scale")
